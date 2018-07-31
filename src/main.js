@@ -3,4 +3,4 @@
 import './styles.css';
 import $ from 'jquery';
 import 'bootstrap';
-import 'boostrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';

@@ -7,8 +7,7 @@
     "build": "webpack --mode development",
     "start": "npm run build; webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
-    "test": "jasmine",
-    "test": "karma start karma.conf.js"
+    "test": "karma start karma.conf.js --mode development"
   },
   "keywords": [],
   "author": "",
