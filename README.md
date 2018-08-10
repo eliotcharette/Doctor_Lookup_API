@@ -39,8 +39,6 @@ Eliot Charette
 ### Support and Contact Details
 If you encounter any bugs or would like to make suggestions regarding this project, please feel free to contact eliotcharette@gmail.com.
 
-
-
 ### License
 
 This project is distributed under the MIT License
