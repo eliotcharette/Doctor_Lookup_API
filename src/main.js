@@ -24,10 +24,10 @@ $(document).ready(function() {
         }
       }
       if(body.data.length === 0){
-        $('.showErrors').text(`We're sorry, there are no results for your search.`)
+        $('.results').prepend(`We're sorry, there are no results for your search.`)
       }
     }, function(error) {
-      $('.showErrors').text(`There was an error processing your request: ${error.message}`);
+      $('.showErrors').prepend(`<li>There was an error processing your request: ${error.message}</li>`);
     });
   });
 });
