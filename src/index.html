@@ -6,9 +6,12 @@
   <body>
     <div class="container">
       <h1>Find all the doctors for any issue in Seattle</h1>
-      <label for="name">Enter a name first or last(optional):</label>
+      <h3>Search by name, illness, or both!</h3>
+      <div class="form-group">
+      <label for="name">Enter a name first or last:</label>
       <input id="name" type="text">
-      <label for="issue">Treatment for(optional):</label>
+    </div>
+      <label for="issue">Illness:</label>
       <input id="issue" type="text">
       <button class="btn-success" id="search">Find Doctors</button>
           <div class="results"></div>
