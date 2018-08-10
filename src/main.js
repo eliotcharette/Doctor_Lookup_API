@@ -14,7 +14,6 @@ $(document).ready(function() {
 
     promise.then(function(response) {
       let body = JSON.parse(response);
-      console.log(body);
       for (let i = 0; i < body.data.length; i++) {
         if (`${body.data[i].practices[0].accepts_new_patients}` === "true"){
           $('.results').prepend(`<p><strong>Doctor: </strong>${body.data[i].profile.first_name} ${body.data[i].profile.last_name}<strong> is</strong> currently accpeting new patients</p><li>Address: ${body.data[i].practices[0].visit_address.street}</li><li>Phone: ${body.data[i].practices[0].phones[0].number}</li><li>Website: ${body.data[i].practices[0].website}</li><br>`);
